@@ -5,7 +5,7 @@ import java.util.List;
 import com.example.raidbackendtestllm.narration.dto.BattleContext;
 
 public interface BattleNarrationService {
-	List<String> generateDialogue(BattleContext context, String userLine);
+	String generateDialogue(BattleContext context);
 
 
 
